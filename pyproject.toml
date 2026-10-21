@@ -1,0 +1,19 @@
+[project]
+name = "keyscout-leaktracker"
+version = "0.1.0"
+description = "Free public API-key leak radar (detect, redact, count — never validate or revoke)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+dependencies = [
+  "requests>=2.31",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+leaktracker = "leaktracker.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

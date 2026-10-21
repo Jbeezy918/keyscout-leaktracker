@@ -1,0 +1,23 @@
+{
+  "title": "KeyScout Leak Radar \u2014 Weekly Report",
+  "period_start": "2026-10-14",
+  "period_end": "2026-10-21",
+  "generated_at": "2026-10-21T08:55:23Z",
+  "providers": [
+    "openai"
+  ],
+  "table": [
+    {
+      "source_type": "github_commit",
+      "openai": 0,
+      "total": 0
+    }
+  ],
+  "funnel": {
+    "found": 0,
+    "reported": 0,
+    "removed": 0,
+    "confirmed": 0
+  },
+  "note": "Counts are pattern matches on public sources. We never validate or revoke keys."
+}

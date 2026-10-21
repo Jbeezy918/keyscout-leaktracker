@@ -1,0 +1,24 @@
+# Benign strings that must NOT match as secrets
+sk-example-not-a-real-key-xxxxxxxxxxx
+AKIAEXAMPLEDEMOKEY00
+AIzaSyA-example-placeholder-key-000000
+ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+github_pat_xxxxxxxxxxxxxxxxxxxx
+xoxb-example-token
+hf_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+OPENAI_API_KEY=your_key_here
+const apiKey = process.env.OPENAI_API_KEY
+Bearer TOKEN
+Authorization: Bearer ${OPENAI_API_KEY}
+sk-proj-EXAMPLEDEMOKEY000000000000001
+npm_example_token_not_real_xxxxxxxxxxxxxx
+pypi-xxxxxxxxxxxxxxxxxxxx
+dop_v1_0000000000000000000000000000000000000000000000000000000000000000
+SG.xxxxxxxxxxxxxxxx.yyyyyyyyyyyyyyyy
+AC00000000000000000000000000000000
+123456789:AAExampleBotTokenPlaceholderXXXXXXX
+def sha256(s): return hashlib.sha256(s.encode()).hexdigest()
+version = "1.2.3"
+price = "$19.99"
+email = "user@example.com"
+url = "https://api.github.com/repos/octocat/Hello-World"

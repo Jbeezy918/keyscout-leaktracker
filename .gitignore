@@ -1,0 +1,37 @@
+# Secrets and env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*secret*
+*credentials*
+id_rsa*
+.github_token
+GITHUB_TOKEN
+
+# Local data (may contain fingerprints of real leaks — do not force-push casually)
+data/*.db
+data/*.db-*
+drafts/reports/*.md
+!drafts/reports/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+dist/
+*.egg-info/
+.mypy_cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Dashboard rebuild artifacts can be committed if scrubbed; keep local overrides out
+dashboard/public/stats.json
+
+.ruff_cache/

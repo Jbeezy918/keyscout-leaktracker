@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "algo": "sha256",
+  "note": "Hash your key locally: sha256(key).hexdigest(), then search. Never send the raw key.",
+  "count": 0,
+  "fingerprints": []
+}
